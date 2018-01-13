@@ -1,0 +1,18 @@
+{
+  "name": "quickstart-boilerplate",
+  "version": "0.0.1",
+  "description": "A generic Javascript boilerplate repo",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "test": "test"
+  },
+  "author": "Veronica Carrillo-Marquez",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack-dev-server": "^2.10.1"
+  },
+  "dependencies": {
+    "webpack": "^3.10.0"
+  }
+}
