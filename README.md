@@ -1,8 +1,7 @@
 ### Quickstart Boilerplate
 
-* Dev server with webpack
-* Babel: Trans-compilation from ES6
-* Javascript linting with AirBnb rules
-* CSS linting
-* Unit Testing
-* Automation testing?
+* [x] Webpack Dev Server
+* [x] Babel
+* [ ] ESLint
+* [ ] Stylelint
+* [ ] Unit Testing

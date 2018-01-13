@@ -1,15 +1,27 @@
 {
-  "name": "quickstart-boilerplate",
+  "name": "f1v-webpack-boilerplate",
   "version": "0.0.1",
-  "description": "A generic Javascript boilerplate repo",
+  "description": "Webpack Boilerplate Repository",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server",
-    "test": "test"
+    "start": "webpack-dev-server"
   },
-  "author": "Veronica Carrillo-Marquez",
+  "author": {
+    "name": "F1V Consulting",
+    "email": "developers@f1v.co"
+  },
+  "contributors": [
+    {
+      "name": "Veronica Carrillo-Marquez",
+      "email": "veiko@f1v.co"
+    }
+  ],
   "license": "ISC",
   "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
     "webpack-dev-server": "^2.10.1"
   },
   "dependencies": {
