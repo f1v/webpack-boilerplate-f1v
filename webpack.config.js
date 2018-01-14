@@ -1,4 +1,5 @@
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
+var StyleLintPlugin = require('stylelint-webpack-plugin');
 
 module.exports = {
   entry: ['./src/js/main.js', './src/css/main.scss'],
@@ -31,5 +32,6 @@ module.exports = {
       filename: 'dist/app.bundle.css',
       allChunks: true,
     }),
+    new StyleLintPlugin({}),
   ],
 };
