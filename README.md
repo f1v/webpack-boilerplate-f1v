@@ -2,6 +2,6 @@
 
 * [x] Webpack Dev Server
 * [x] Babel
-* [ ] ESLint
+* [x] ESLint
 * [ ] Stylelint
 * [ ] Unit Testing
