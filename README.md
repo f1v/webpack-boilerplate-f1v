@@ -5,4 +5,5 @@
 * [x] ESLint
 * [x] Sass
 * [x] Stylelint
+* [x] Yarn
 * [ ] Unit Testing
