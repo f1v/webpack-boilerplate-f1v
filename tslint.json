@@ -1,0 +1,39 @@
+{
+    "extends": "tslint-config-videoamp/react",
+    "defaultSeverity": "error",
+    "rules": {
+        "no-default-export": false,
+        "no-empty-interface": false,
+        "no-implicit-dependencies": false,
+        "no-unsafe-any": false,
+        "promise-function-async": false,
+        "no-void-expression": false,
+        "completed-docs": false,
+        "max-func-body-length": false,
+        "no-consecutive-blank-lines": [true, 1],
+        "member-ordering": false,
+        "no-import-side-effect": [
+            true,
+            {
+                "ignore-module": "(\\.s?css)$"
+            }
+        ],
+        "jsx-space-before-trailing-slash": true,
+        "no-single-line-block-comment": false,
+        "strict-boolean-expressions": false,
+        "react-a11y-image-button-has-alt": false
+    },
+    "jsRules": {
+        "no-console": false,
+        "object-literal-sort-keys": false
+    },
+    "linterOptions": {
+        "exclude": [
+            "node_modules",
+            "config",
+            "**/lib/**",
+            "**/node_modules",
+            "compiled-scripts/**"
+        ]
+    }
+}

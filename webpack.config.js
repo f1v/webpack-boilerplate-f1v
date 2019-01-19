@@ -1,7 +1,7 @@
 const StyleLintPlugin = require('stylelint-webpack-plugin');
 
 module.exports = {
-  entry: ['./src/js/main.js', './src/css/main.scss'],
+  entry: ['./src/index.ts', './src/index.scss'],
   output: {
     filename: 'dist/bundle.js',
   },
@@ -14,6 +14,11 @@ module.exports = {
           { loader: 'babel-loader' },
           { loader: 'eslint-loader' },
         ],
+      },
+      {
+        test: /\.tsx?$/,
+        loader: 'ts-loader',
+        exclude: /node_modules/,
       },
       {
         test: /\.(sa|sc|c)ss$/,
