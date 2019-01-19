@@ -4,7 +4,7 @@
   "description": "Webpack Boilerplate Repository",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server --mode development"
   },
   "author": {
     "name": "F1V Consulting",
@@ -36,6 +36,7 @@
     "babel-loader": "^8.0.5",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "mini-css-extract-plugin": "^0.5.0",
+    "react": "^16.7.0",
     "webpack": "^4.28.3",
     "webpack-cli": "^3.2.1"
   }
